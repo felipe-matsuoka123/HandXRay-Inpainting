@@ -1,4 +1,4 @@
-#HandXRay-Inpainting
+# HandXRay-Inpainting
 
 app.py: Contains helper functions for running inference with the bone age estimation model.
 

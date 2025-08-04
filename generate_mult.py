@@ -5,7 +5,7 @@ from PIL import Image
 from io import BytesIO
 import base64
 
-client = OpenAI(api_key="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")  # Add your API key here
+client = OpenAI(api_key="")  # Add your API key here
 
 input_dir = r"C:\Projetos\hand-bone\boneage-test-dataset\boneage-test-dataset"
 output_dir = os.path.join(r"C:\Projetos\hand-bone", "output_cleaned_mult")
@@ -79,3 +79,4 @@ for idx, filename in enumerate(image_files):
 
     # Optional: Adjust sleep time to avoid API rate limits
     time.sleep(15)
+
